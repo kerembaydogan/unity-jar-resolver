@@ -14,7 +14,7 @@ Unity plugin that requires:
    * Management of Package Manager (PM) Registries.
 
 Updated releases are available on
-[GitHub](https://github.com/googlesamples/unity-jar-resolver)
+[GitHub](https://github.com/kerembaydogan/unity-jar-resolver)
 
 # Background
 
@@ -216,7 +216,7 @@ target in the Unity editor.
       import steps in the [Getting Started](#getting-started) section!
 
    2. Copy and rename the
-      [SampleDependencies.xml](https://github.com/googlesamples/unity-jar-resolver/blob/master/sample/Assets/ExternalDependencyManager/Editor/SampleDependencies.xml)
+      [SampleDependencies.xml](https://github.com/kerembaydogan/unity-jar-resolver/blob/master/sample/Assets/ExternalDependencyManager/Editor/SampleDependencies.xml)
       file into your plugin and add the dependencies your plugin requires.
 
       The XML file just needs to be under an `Editor` directory and match the
@@ -416,7 +416,7 @@ Dependencies for iOS are added by referring to CocoaPods.
       import steps in the [Getting Started](#getting-started) section!
 
    2. Copy and rename the
-      [SampleDependencies.xml](https://github.com/googlesamples/unity-jar-resolver/blob/master/sample/Assets/ExternalDependencyManager/Editor/SampleDependencies.xml)
+      [SampleDependencies.xml](https://github.com/kerembaydogan/unity-jar-resolver/blob/master/sample/Assets/ExternalDependencyManager/Editor/SampleDependencies.xml)
       file into your plugin and add the dependencies your plugin requires.
 
       The XML file just needs to be under an `Editor` directory and match the
@@ -485,7 +485,7 @@ registry servers and easy for plugin users to manage PM registry servers.
       import steps in the [Getting Started](#getting-started) section!
 
    2. Copy and rename the
-      [SampleRegistries.xml](https://github.com/googlesamples/unity-jar-resolver/blob/master/sample/Assets/ExternalDependencyManager/Editor/sample/Assets/ExternalDependencyManager/Editor/SampleRegistries.xml)
+      [SampleRegistries.xml](https://github.com/kerembaydogan/unity-jar-resolver/blob/master/sample/Assets/ExternalDependencyManager/Editor/sample/Assets/ExternalDependencyManager/Editor/SampleRegistries.xml)
       file into your plugin and add the registries your plugin requires.
 
       The XML file just needs to be under an `Editor` directory and match the

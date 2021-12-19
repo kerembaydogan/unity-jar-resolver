@@ -45,7 +45,7 @@ public class UnityCompat {
         "UnityEditor.Android.PostProcessAndroidPlayer";
     private const string WRITE_A_BUG =
         "Please report this as a bug with the version of Unity you are using at: " +
-        "https://github.com/googlesamples/unity-jar-resolver/issues";
+        "https://github.com/kerembaydogan/unity-jar-resolver/issues";
 
     private static int MinSDKVersionFallback {
         get { return EditorPrefs.GetInt(ANDROID_MIN_SDK_FALLBACK_KEY, DEFAULT_ANDROID_MIN_SDK); }

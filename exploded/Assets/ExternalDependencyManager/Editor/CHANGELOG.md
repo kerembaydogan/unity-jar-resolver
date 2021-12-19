@@ -1162,14 +1162,14 @@
 
 # Version 1.2.21 - May 8, 2017
 ## Bug Fixes
-* Fix for https://github.com/googlesamples/unity-jar-resolver/issues/48
+* Fix for https://github.com/kerembaydogan/unity-jar-resolver/issues/48
   Android dependency version number parsing when "-alpha" (etc.) are
   included in dependency (AAR / JAR) versions.
 
 # Version 1.2.20 - May 8, 2017
 ## Bug Fixes
 * Attempted to fix
-  https://github.com/googlesamples/unity-jar-resolver/issues/48
+  https://github.com/kerembaydogan/unity-jar-resolver/issues/48
   where a NullReferenceException could occur if a target file does not
   have a valid version string.
 

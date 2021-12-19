@@ -541,17 +541,17 @@ namespace Google.VersionHandlerImpl.Tests {
             var selectedOptions = new List<DialogWindow.Option> {
                     DialogWindow.Option.Selected0 /* yes */ };
             analytics.displayDialog = CreateDisplayDialogDelegate(selectedOptions);
-            analytics.OpenUrl("https://github.com/googlesamples/unity-jar-resolver?do=something" +
+            analytics.OpenUrl("https://github.com/kerembaydogan/unity-jar-resolver?do=something" +
                               "#version-handler-usage", "Version Handler Usage");
             Assert.That(selectedOptions, Is.EqualTo(new List<DialogWindow.Option>()));
             Assert.That(openedUrls,
                         Is.EqualTo(new List<string>() {
-                                "https://github.com/googlesamples/unity-jar-resolver?do=something" +
+                                "https://github.com/kerembaydogan/unity-jar-resolver?do=something" +
                                 "#version-handler-usage"
                             }));
             Assert.That(webRequest.PostedUrlAndForms,
                         Is.EqualTo(CreateMeasurementEvents(analytics,
-                                                           "/github.com/googlesamples/" +
+                                                           "/github.com/kerembaydogan/" +
                                                            "unity-jar-resolver",
                                                            "?do=something",
                                                            "#version-handler-usage",

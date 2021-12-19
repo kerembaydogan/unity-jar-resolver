@@ -2273,7 +2273,7 @@ public class VersionHandlerImpl : AssetPostprocessor {
     internal const string PRIVACY_POLICY = "https://policies.google.com/privacy";
     // Product Url
     internal const string DATA_USAGE_URL =
-            "https://github.com/googlesamples/unity-jar-resolver#analytics";
+            "https://github.com/kerembaydogan/unity-jar-resolver#analytics";
 
     // Analytics reporter.
     internal static EditorMeasurement analytics = new EditorMeasurement(
@@ -2582,7 +2582,7 @@ public class VersionHandlerImpl : AssetPostprocessor {
     /// <param name="subsection">String to add to the URL.</param>
     /// <returns>URL</returns>
     internal static string DocumentationUrl(string subsection) {
-        return String.Format("{0}{1}", "https://github.com/googlesamples/unity-jar-resolver",
+        return String.Format("{0}{1}", "https://github.com/kerembaydogan/unity-jar-resolver",
                              subsection);
     }
 

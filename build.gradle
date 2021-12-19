@@ -1746,7 +1746,7 @@ task gitTagRelease(type: Exec) {
               sprintf("v%s", pluginVersion), "-m",
               sprintf("%s\n\nDownload [here](%s)",
                       createCommitMessage(),
-                      sprintf("https://github.com/googlesamples/" +
+                      sprintf("https://github.com/kerembaydogan/" +
                               "unity-jar-resolver/raw/v%s/" +
                               "external-dependency-manager-%s.unitypackage",
                               project.ext.pluginVersion,

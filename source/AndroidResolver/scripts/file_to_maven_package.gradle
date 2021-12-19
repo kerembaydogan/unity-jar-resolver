@@ -56,7 +56,7 @@ GOOGLE_MAVEN_INDEX_URI (optional project property):
   Optional property which specifies a URI to a Google Maven Index JSON file
   compressed with zip.
   If this is not specified this defaults to
-  https://raw.githubusercontent.com/googlesamples/unity-jar-resolver/\
+  https://raw.githubusercontent.com/kerembaydogan/unity-jar-resolver/\
 master/google-maven-index.zip
 """
 
@@ -752,7 +752,7 @@ public class GoogleMavenIndexer {
   public static int httpTimeoutMilliseconds = 20 * 1000
   // URI for the cached Maven index zip file.
   public static URI googleMavenIndexUri =
-    new URI("https://raw.githubusercontent.com/googlesamples/" +
+    new URI("https://raw.githubusercontent.com/kerembaydogan/" +
             "unity-jar-resolver/master/google-maven-index.zip")
 
   // Repo URI.

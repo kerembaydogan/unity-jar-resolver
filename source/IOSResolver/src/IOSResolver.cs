@@ -1880,7 +1880,7 @@ public class IOSResolver : AssetPostprocessor {
                 Log(String.Format(
                         "Failed to get the Xcode target GUIDs, it's possible Unity has broken " +
                         "the Xcode API {0}. Please report a bug to " +
-                        "https://github.com/googlesamples/unity-jar-resolver/issues",
+                        "https://github.com/kerembaydogan/unity-jar-resolver/issues",
                         exception), level: LogLevel.Error);
                 throw exception;
             }
